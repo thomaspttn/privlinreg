@@ -1,0 +1,21 @@
+0,1.
+age: continuous.
+job: "admin.","blue-collar","entrepreneur","housemaid","management","retired","self-employed","services","student","technician","unemployed","unknown"
+marital: "divorced","married","single","unknown"
+education: "basic.4y","basic.6y","basic.9y","high.school","illiterate","professional.course","university.degree","unknown"
+default: 0, 1, "unknown"
+housing: 0, 1, "unknown"
+loan: 0, 1, "unknown"
+contact: "cellular","telephone"
+month: "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"
+day_week: "mon","tue","wed","thu","fri"
+duration: continuous.
+campaign: continuous.
+pdays: continuous.
+previous: continuous.
+poutcome: "failure","nonexistent","success"
+emp.var.rate: continuous.
+cons.price.idx: continuous.
+cons.conf.idx: continuous.
+euribor3m: continuous.
+nr.employed: continuous.
