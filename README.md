@@ -6,7 +6,7 @@ Case Western Reserve University
 Deparment of Computer Science
 
 ## Description
-The goal of this project was to implement differentially private linear regression as described in *Yue Wang et al.* This form of privacy is dependent on a peturbation of the objective function, usually by injecting Laplacian noise. This project implements this idea with a 1-layer network in TensorFlow with a custom objective function. Additionally, this project expands on that idea by allowing users to use Gaussian noise. The comparison of these two noise types is the subject of the corresponding paper for this project.
+The goal of this project was to implement differentially private linear regression as described in *Yue Wang et al.* This form of privacy is dependent on a peturbation of the objective function, usually by injecting Laplacian noise. This project implements this idea with a 1-layer network in TensorFlow with a custom objective function. Additionally, this project expands on that idea by allowing users to use Gaussian noise. The comparison of these two noise types is the subject of the corresponding paper for this project. See ``PrivLinReg_Writeup.pdf`` for the full writeup.
 
 ## Usage
 ``python tf_main.py <data_dir> <epsilon> <noise_type>``
